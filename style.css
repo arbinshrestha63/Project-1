@@ -30,3 +30,19 @@ content {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.top_section{
+    display: flex;
+}
+
+.image_container {
+    position: relative;
+}
+
+img {
+    width: 250px;
+    height: 400px;
+    position: absolute;
+    top: 10px;
+    left: -500px;
+}
